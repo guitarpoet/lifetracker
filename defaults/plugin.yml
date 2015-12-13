@@ -1,0 +1,69 @@
+post_type: track_record
+post_type_admin_labels:
+    name: 
+        - Track Records
+        - Track record type general name
+        - lifetracker
+    singular_name: 
+        - Track Record
+        - Track record type singular name
+        - lifetracker
+    menu_name: 
+        - Track Records
+        - Admin Menu
+        - lifetracker
+    name_admin_bar: 
+        - Track Record
+        - Add new on admin bar
+        - lifetracker
+    add_new: 
+        - Add New
+        - Track Record
+        - lifetracker
+post_type_labels:
+    add_new_item: 
+        - Add New Record
+        - lifetracker
+    new_item:
+        - New Record
+        - lifetracker
+    edit_item:
+        - Edit Record
+        - lifetracker
+    view_item:
+        - View Record
+        - lifetracker
+    all_items:
+        - All Records
+        - lifetracker
+    search_items:
+        - Search Records
+        - lifetracker
+    parent_item_colon:
+        - Parent Records
+        - lifetracker
+    not_found:
+        - No records found.
+        - lifetracker
+    not_found_in_trash:
+        - No records found in Trash.
+        - lifetracker
+post_type_description:
+    - This is the post type for the life track records.
+    - lifetracker
+post_type_config:
+    public: true
+    publicly_queryable: true
+    show_ui: true
+    show_in_menu: true
+    query_var: true
+    capability_type: post
+    has_archive: true
+    hierarchical: false
+    menu_position: null
+    supports:
+        - title
+        - editor
+        - author
+        - thumbnail
+        - comments
